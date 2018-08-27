@@ -2,3 +2,20 @@
 .navbar {
   min-height: 125px;
 }
+
+/*
+azul: #38a7bb
+lila: #c27baa;
+*/
+#footer {
+  background: white;
+}
+#footer a {
+  color: #38a7bb;
+}
+#footer h4 {
+  color: black;
+}
+#copyright .blue {
+  color: #38a7bb;
+}

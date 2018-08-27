@@ -48,7 +48,7 @@ defaultContentLanguage = "es"
 
 [params]
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-    style = "marsala"
+    style = "default"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -73,9 +73,10 @@ defaultContentLanguage = "es"
 
     logo = "img/logo.png"
     logo_small = "img/logo-small.png"
-    address = """"""
-    latitude = "-12.043333"
-    longitude = "-77.028333"
+    direction = "C/ María Lacunza 5-7, bajo, Lezkairu, Pamplona"
+    latitude = "42.805823"
+    longitude = "-1.623696"
+
 
 # Enable or disable top bar with social icons
 [params.topbar]
