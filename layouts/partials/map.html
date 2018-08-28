@@ -14,7 +14,9 @@
 </style>
 
 
-<div id="leafletmap" style="height: 400px; width: 100%"></div>
+<section class="bar background-white">
+<div id="leafletmap" style="height: 400px; width: 1170px; margin: auto;"></div>
+</section>
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" ></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js" ></script>
@@ -27,6 +29,10 @@ L.tileLayer('//api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={access
     id: 'mapbox.streets',
     accessToken: 'pk.eyJ1IjoieWFtaWxhIiwiYSI6IjUzNDE5ZDRkZjBiZjBiZDY0YTBhZjBmNmUyZGYzYTZiIn0.okLJEzGsBQ6IOgn1mhToIQ'
 }).addTo(mymap);
-L.marker([42.80593,-1.62383]).addTo(mymap);
+//L.marker([42.80593,-1.62383]).addTo(mymap);
+L.popup()
+    .setLatLng([42.80593,-1.62383])
+  .setContent('<a href="https://www.google.com/maps/dir//7,+bajo,+Calle+Mar%C3%ADa+Lacunza,+5,+31006+Pamplona,+Navarra/@42.8058367,-1.6258582,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0xd5093a48af6a2b3:0x6ec11e967b9dcff4!2m2!1d-1.6236695!2d42.8058328!3e0" target="_blank">Cómo llegar</a>')
+    .openOn(mymap);
 </script>
 

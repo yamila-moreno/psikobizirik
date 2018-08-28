@@ -39,3 +39,7 @@ lila: #c27baa;
 #copyright .blue {
   color: #38a7bb;
 }
+
+#navigation a.phone {
+  text-decoration: none;
+}
