@@ -3,6 +3,26 @@
   min-height: 125px;
 }
 
+#aboutme.bar,
+#contact.bar {
+  padding-top: 0px;
+}
+
+#aboutme.bar {
+  margin-bottom: 0px;
+}
+
+#aboutme h2 {
+  margin-top: auto;
+}
+
+@media screen and (max-width: 768px) {
+  #aboutme h2 {
+    margin-top: auto;
+  }
+}
+
+
 /*
 azul: #38a7bb
 lila: #c27baa;

@@ -18,13 +18,13 @@ defaultContentLanguage = "es"
 
 [[menu.main]]
     name = "Sobre mí"
-    url  = "/sobre-mi/"
+    url  = "#aboutme"
     weight = 2
 
 
 [[menu.main]]
     name = "Contacto"
-    url  = "/contacto/"
+    url  = "#contact"
     weight = 3
 
 # Top bar social links menu
@@ -63,13 +63,13 @@ defaultContentLanguage = "es"
     # - you're done. Happy mailing!
     #
     # Enable the contact form by entering your Formspree.io email
-    email = "your@email.com"
+    # email = "youremail@gmail.com"
 
-    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2018, PsikoBizirik. Todos los derechos reservados"
+    # about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
+    # copyright = "Copyright (c) 2018, PsikoBizirik. Todos los derechos reservados"
 
     # Format dates with Go's time formatting
-    date_format = "January 2, 2006"
+    # date_format = "January 2, 2006"
 
     logo = "img/logo.png"
     logo_small = "img/logo-small.png"
