@@ -6,15 +6,11 @@
   <title>{{ .Title }}</title>
   <meta name="author" content="{{ .Site.Author.name }}" />
 
-  {{ if .Keywords }}
-  <meta name="keywords" content="{{ delimit .Keywords ", " }}">
-  {{ else if .Site.Params.DefaultKeywords }}
+  {{ if .Site.Params.DefaultKeywords }}
   <meta name="keywords" content="{{ delimit .Site.Params.DefaultKeywords ", " }}">
   {{ end }}
 
-  {{ if .Description }}
-  <meta name="description" content="{{ .Description }}">
-  {{ else if .Site.Params.DefaultDescription }}
+  {{ if .Site.Params.DefaultDescription }}
   <meta name="description" content="{{ .Site.Params.DefaultDescription }}">
   {{ end }}
 
@@ -47,14 +43,6 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   ` | safeHTML }}
-
-  <!-- Favicon and apple touch icons-->
-  <link rel="shortcut icon" href="{{ "img/favicon.ico" | relURL }}" type="image/x-icon" />
-  <link rel="apple-touch-icon" href="{{ "img/apple-touch-icon.png" | relURL }}" />
-  <!-- owl carousel css -->
-
-  <link href="{{ "css/owl.carousel.css" | relURL}}" rel="stylesheet">
-  <link href="{{ "css/owl.theme.css" | relURL}}" rel="stylesheet">
 
   <link rel="alternate" href="{{ "/index.xml" | absURL }}" type="application/rss+xml" title="{{ .Site.Title }}">
 

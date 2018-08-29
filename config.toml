@@ -47,6 +47,9 @@ defaultContentLanguage = "es"
     pre = "<i class='fa fa-2x fa-envelope'></i>"
 
 [params]
+    defaultDescription = "Centro especializado en Psicomotricidad, Atención Temprana y Psicología"
+    defaultKeywords = ["psicomotricidad", "atención temprana", "psicología"]
+
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
     style = "default"
 
