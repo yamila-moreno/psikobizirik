@@ -3,12 +3,16 @@
   min-height: 125px;
 }
 
-#aboutme.bar,
-#contact.bar {
-  padding-top: 0px;
+#navigation a.phone {
+  text-decoration: none;
 }
 
-#aboutme.bar {
+#features {
+  margin-bottom: 0px;
+}
+
+#aboutme {
+  margin-top: 0px;
   margin-bottom: 0px;
 }
 
@@ -16,12 +20,24 @@
   margin-top: auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
+  #aboutme {
+    padding-top: 0px;
+  }
   #aboutme h2 {
-    margin-top: auto;
+    margin-top: 20px;
   }
 }
 
+#sectionmap {
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 991px) {
+  #sectionmap {
+    padding-top: 0px;
+  }
+}
 
 /*
 azul: #38a7bb
@@ -36,10 +52,25 @@ lila: #c27baa;
 #footer h4 {
   color: black;
 }
+
+#footer #logo {
+  text-align: right;
+}
+
+@media screen and (max-width: 991px) {
+  #footer {
+    padding-top: 0px;
+  }
+  #footer #logo {
+    margin: 20px auto 0;
+    text-align: center;
+  }
+  #footer #address {
+    text-align: center;
+  }
+}
+
 #copyright .blue {
   color: #38a7bb;
 }
 
-#navigation a.phone {
-  text-decoration: none;
-}
