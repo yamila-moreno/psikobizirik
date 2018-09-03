@@ -1,6 +1,7 @@
-weight: 1
+weight: 2
 description: >
   <ul id="carousel">
     <li>Psicología</li>
+    <li>Psicomotricidad</li>
   </ul>
-image: "img/carousel/uno.jpg"
+image: "img/carousel/dos.jpg"

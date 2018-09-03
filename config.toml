@@ -97,7 +97,7 @@ defaultContentLanguage = "es"
     search = true
 
 [params.featured_image]
-    enable = true
+    enable = false
     description = """
      <ul>
          <li>Psicología</li>
@@ -107,7 +107,7 @@ defaultContentLanguage = "es"
      """
 
 [params.carousel]
-    enable = false
+    enable = true
     # All carousel items are defined in their own files. You can find example items
     # at 'exampleSite/data/carousel'.
     # For more informtion take a look at the README.

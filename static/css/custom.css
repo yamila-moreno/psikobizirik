@@ -74,3 +74,13 @@ lila: #c27baa;
   color: #38a7bb;
 }
 
+ul#carousel li {
+  font-size: 30px;
+}
+
+.texture-bw {
+  background: url('../img/texture-bw.png') center center repeat;
+}
+.home-carousel .dark-mask {
+  opacity: 0.6;
+}

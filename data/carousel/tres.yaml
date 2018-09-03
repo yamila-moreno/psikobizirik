@@ -1,0 +1,8 @@
+weight: 3
+description: >
+  <ul id="carousel">
+    <li>Psicología</li>
+    <li>Psicomotricidad</li>
+    <li>Atención temprana</li>
+  </ul>
+image: "img/carousel/tres.jpg"
