@@ -1,4 +1,4 @@
-baseurl = "http://psikobizirik.com/"
+baseurl = "https://psikobizirik.com/"
 title = "PsikoBizirik"
 theme = "hugo-universal-theme"
 languageCode = "es-es"
