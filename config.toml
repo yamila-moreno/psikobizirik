@@ -75,7 +75,7 @@ defaultContentLanguage = "es"
     # date_format = "January 2, 2006"
 
     logo = "img/logo.png"
-    logo_small = "img/logo-small.png"
+    logo_small = "img/logo.png"
     direction = "C/ María Lacunza 5-7, bajo, Lezkairu, Pamplona"
     latitude = "42.805823"
     longitude = "-1.623696"

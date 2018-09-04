@@ -3,24 +3,19 @@
 {{ if gt (len .Site.Data.carousel) 0 }}
 <section>
     <div class="home-carousel texture-bw">
-        <div class="dark-mask"></div>
-        <div class="container">
-            <div class="homepage owl-carousel">
+        <div class="container psk-container">
+            <ul class="psk-list">
+              <li>Psicología</li>
+              <li>Psicomotricidad</li>
+              <li>Atención temprana</li>
+            </ul>
+            <div class="homepage owl-carousel psk-carousel">
                 {{ range sort .Site.Data.carousel "weight" }}
                 <div class="item">
-                    <div class="row">
-                        <div class="col-sm-5 right">
-                            <h1>{{ .title }}</h1>
-                            {{ .description | safeHTML }}
-                        </div>
-                        <div class="col-sm-7">
-                            <img class="img-responsive" src="{{ .image }}" alt="">
-                        </div>
-                    </div>
+                      <img class="img-responsive" src="{{ .image }}" alt="">
                 </div>
                 {{ end }}
             </div>
-            <!-- /.project owl-slider -->
         </div>
     </div>
 </section>

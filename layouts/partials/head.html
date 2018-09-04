@@ -32,10 +32,6 @@
     <link href="{{ "css/style.default.css" | relURL}}" rel="stylesheet" id="theme-stylesheet">
   {{ end }}
 
-
-  <!-- Custom stylesheet - for your changes -->
-  <link href="{{ "css/custom.css" | relURL}}" rel="stylesheet">
-
   <!-- Responsivity for older IE -->
   {{ `
     <!--[if lt IE 9]>
@@ -49,6 +45,9 @@
   <!-- owl carousel css -->
   <link href="{{ "css/owl.carousel.css" | relURL}}" rel="stylesheet">
   <link href="{{ "css/owl.theme.css" | relURL}}" rel="stylesheet">
+
+  <!-- Custom stylesheet - for your changes -->
+  <link href="{{ "css/custom.css" | relURL}}" rel="stylesheet">
 
   <link rel="alternate" href="{{ "/index.xml" | absURL }}" type="application/rss+xml" title="{{ .Site.Title }}">
 
