@@ -8,12 +8,13 @@
 }
 
 psk-features {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .psk-about-me {
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
 }
 
 .psk-about-me h2 {
@@ -21,9 +22,6 @@ psk-features {
 }
 
 @media screen and (max-width: 991px) {
-  .psk-about-me {
-    padding-top: 0px;
-  }
   .psk-about-me h2 {
     margin-top: 20px;
   }
@@ -35,7 +33,7 @@ psk-features {
 
 @media screen and (max-width: 991px) {
   .psk-map {
-    padding-top: 0px;
+    padding-top: 0;
   }
 }
 
@@ -82,17 +80,17 @@ lila: #c27baa;
 
 .home-carousel .psk-list {
   flex: 1;
-  padding-top: 145px;
+  padding-top: 120px;
 }
 
 .home-carousel .psk-list li {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .home-carousel .psk-carousel {
   padding-top: 0;
   padding-bottom: 0;
-  width: 700px;
+  width: 600px;
 }
 
 @media screen and (max-width: 991px) {
