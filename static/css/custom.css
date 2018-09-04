@@ -2,6 +2,12 @@
 .navbar {
   min-height: 125px;
 }
+@media screen and (max-width: 991px) {
+  .navbar .psk-navbar {
+    margin: auto;
+    padding-left: inherit;
+  }
+}
 
 .navigation a.phone {
   text-decoration: none;
