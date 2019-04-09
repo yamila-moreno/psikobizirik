@@ -1,3 +1,6 @@
+body {
+  font-size: 17px;
+}
 /* CUSTOM HEIGH */
 .navbar {
   min-height: 125px;
@@ -13,8 +16,13 @@
   text-decoration: none;
 }
 
-psk-features {
-  margin-bottom: 0;
+.psk-features {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.psk-recent-posts {
+  padding-top: 0px;
 }
 
 .psk-about-me {

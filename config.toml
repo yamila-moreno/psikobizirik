@@ -143,6 +143,6 @@ defaultContentLanguage = "es"
     subtitle = ""
 
 [params.recent_posts]
-    enable = false
-    title = "From our blog"
-    subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+    enable = true
+    title = "Primer curso de nociones básicas de psicomotricidad"
+    subtitle = "<p>Curso dirigido a profesores y profesionales de la educación. El <strong>sábado 11 de mayo, de 9 a 13 horas</strong> impartiré en Psikobizirik el primer curso de nociones básicas de psicomotricidad. En el curso se verán los conceptos básicos, haremos una práctica con dinámica y habrá espacio para resolver dudas. El coste del curso es de 40€</p><p>Si deseas participar en el curso, contacta conmigo por teléfono o email</p>"
