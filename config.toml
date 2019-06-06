@@ -143,6 +143,11 @@ defaultContentLanguage = "es"
     subtitle = ""
 
 [params.recent_posts]
-    enable = true
+    enable = false
     title = "Primer curso de nociones básicas de psicomotricidad"
     subtitle = "<p>Curso dirigido a profesores y profesionales de la educación. El <strong>sábado 11 de mayo, de 9 a 13 horas</strong> impartiré en Psikobizirik el primer curso de nociones básicas de psicomotricidad. En el curso se verán los conceptos básicos, haremos una práctica con dinámica y habrá espacio para resolver dudas. El coste del curso es de 40€</p><p>Si deseas participar en el curso, contacta conmigo por teléfono o email</p>"
+
+[params.respira]
+    enable = true
+    title = "Respira y juega"
+    subtitle =  "<p><strong>Actividad de psicomotricidad y fisioterapia respiratoria para aprender jugando</strong>.</p> <p>Imparten Tina Delgado, experta fisioterapeuta respiratoria y Paula García-Arenzana, psicóloga y psicomotricista.</p> <p>15 días de 9:30h a 12:30h. 150€ pax</p> <p>Ocio y aprendizaje: actividades de juego, relajación, respiración y más, en dos semanas en las que los peques se lo van a pasar genial y donde estaremos atentas a su desarrollo mientras se divierten. También realizaremos 1 sesión semanal con padres para comentar dudas y preguntas con las dos expertas en desarrollo infantil.</p>"
