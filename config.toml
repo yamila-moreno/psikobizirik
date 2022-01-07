@@ -9,42 +9,8 @@ defaultContentLanguage = "es"
 # googleAnalytics = ""
 
 [menu]
-
-# Main menu
-[[menu.main]]
-    name = "Inicio"
-    url  = "/"
-    weight = 1
-
-[[menu.main]]
-    name = "Sobre mí"
-    url  = "#aboutme"
-    weight = 2
-
-
-[[menu.main]]
-    name = "Contacto"
-    url  = "#contact"
-    weight = 3
-
-# Top bar social links menu
-[[menu.topbar]]
-    weight = 1
-    name = "Facebook"
-    url = "http://facebook.com"
-    pre = "<i class='fa fa-2x fa-facebook'></i>"
-
-[[menu.topbar]]
-    weight = 2
-    name = "Twitter"
-    url = "http://twitter.com"
-    pre = "<i class='fa fa-2x fa-twitter'></i>"
-
-[[menu.topbar]]
-    weight = 3
-    name = "Email"
-    url = "mailto:your@email.com"
-    pre = "<i class='fa fa-2x fa-envelope'></i>"
+# no hay topbar
+# menú navegación custom
 
 [params]
     defaultDescription = "Centro especializado en Psicomotricidad, Atención Temprana y Psicología"
@@ -84,11 +50,7 @@ defaultContentLanguage = "es"
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = false
-    text = """<p class="hidden-sm hidden-xs">Contacta en el tfno 666 999 222 o en el correo psikobizirik@gmail.com</p>
-      <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
-      <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
-      </p>
-      """
+    text = ""
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
@@ -114,35 +76,7 @@ defaultContentLanguage = "es"
 
 [params.features]
     enable = true
-    # All features are defined in their own files. You can find example items
-    # at 'exampleSite/data/features'.
-    # For more informtion take a look at the README.
+    cols = 4
 
-[params.testimonials]
+[params.footer.recent_posts]
     enable = false
-    # All testimonials are defined in their own files. You can find example items
-    # at 'exampleSite/data/testimonials'.
-    # For more informtion take a look at the README.
-    title = "Testimonials"
-    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
-
-[params.see_more]
-    enable = false
-    icon = "fa fa-file-code-o"
-    title = "Do you want to see more?"
-    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
-    link_url = "#"
-    link_text = "Check other homepages"
-
-[params.clients]
-    enable = false
-    # All clients are defined in their own files. You can find example items
-    # at 'exampleSite/data/clients'.
-    # For more informtion take a look at the README.
-    title = "Our Clients"
-    subtitle = ""
-
-[params.recent_posts]
-    enable = false
-    title = "Primer curso de nociones básicas de psicomotricidad"
-    subtitle = "<p>Curso dirigido a profesores y profesionales de la educación. El <strong>sábado 11 de mayo, de 9 a 13 horas</strong> impartiré en Psikobizirik el primer curso de nociones básicas de psicomotricidad. En el curso se verán los conceptos básicos, haremos una práctica con dinámica y habrá espacio para resolver dudas. El coste del curso es de 40€</p><p>Si deseas participar en el curso, contacta conmigo por teléfono o email</p>"

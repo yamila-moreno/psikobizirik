@@ -1,124 +1,154 @@
-body {
-  font-size: 17px;
-}
-/* CUSTOM HEIGH */
-.navbar {
-  min-height: 125px;
-}
-@media screen and (max-width: 991px) {
-  .navbar .psk-navbar {
-    margin: auto;
-    padding-left: inherit;
-  }
+/****************************************/
+/*************** GENERAL ****************/
+/****************************************/
+
+/* Colores custom en el contacto */
+.fa-instagram {
+  color: #c32aa3;
 }
 
-.navigation a.phone {
+.fa-facebook {
+  color: #3b5998;
+}
+
+.fa-twitter {
+  color: #00acee;
+}
+
+.fa-envelope {
+  color: #bb001b;
+}
+
+.fa-phone {
+  color: #555555;
+}
+
+/****************************************/
+/*************** HEADER *****************/
+/****************************************/
+
+/* Cabecera más grande y que quepa bien el logo */
+.navbar-brand {
+  height: 125px;
+}
+
+.navbar-brand img {
+  max-height: 120px;
+}
+
+/* quitar el hover */
+.navbar ul.nav > li > a {
+  border-top: none;
+}
+
+.navbar ul.nav > li > a:focus,
+.navbar ul.nav > li > a:hover {
+  border-top: none;
+  background: none;
+}
+
+/* quitar el subyarado del teléfono */
+.navbar ul.nav li a.phone {
+  color: #555555;
   text-decoration: none;
+  font-weight: normal;
 }
 
-.psk-features {
-  margin-bottom: 0px;
-  padding-bottom: 0px;
-}
-
-.psk-recent-posts {
-  padding-top: 0px;
-}
-
-.psk-about-me {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-top: 0;
-}
-
-.psk-about-me h2 {
-  margin-top: auto;
-}
-
+/* En móvil se quitan los iconos de contacto */
 @media screen and (max-width: 991px) {
-  .psk-about-me h2 {
-    margin-top: 20px;
+  .psk-collapse {
+    display: none;
   }
 }
 
-.psk-map {
-  margin-bottom: 0px;
+/****************************************/
+/************** CARRUSEL ****************/
+/****************************************/
+
+/* Quitar imagen de fondo en carrusel */
+.home-carousel {
+  background: none;
 }
 
+/* y dejar una máscara lila */
+.home-carousel .dark-mask {
+  background: #d0b1ea;
+  opacity: 0.8;
+}
+
+.home-carousel h1 {
+  font-size: 32px;
+}
+
+.home-carousel .right h1 {
+  padding-top: 100px;
+}
+
+/* En móvil se ajustan los altos */
 @media screen and (max-width: 991px) {
-  .psk-map {
-    padding-top: 0;
+  .home-carousel .right h1 {
+    padding-top: 0px;
   }
 }
 
-/*
-azul: #38a7bb
-lila: #c27baa;
-*/
-.psk-footer#footer {
-  background: white;
+/****************************************/
+/********** GENERAL SECCIONES ***********/
+/****************************************/
+
+section, div.section {
+  margin-bottom: 0px;
 }
-.psk-footer a {
-  color: #38a7bb;
+
+/****************************************/
+/************** FEATURES ****************/
+/****************************************/
+
+/* Evitar que el hover en los círculos haga glow */
+.box-simple:hover .icon {
+  transform: none
 }
-.psk-footer#footer h4 {
+
+.box-simple .icon {
+  color: #ff1e83;
+  border-color: #ff1e83;
+}
+
+/****************************************/
+/************** ABOUT ME ****************/
+/****************************************/
+
+.bar.background-orange {
+  background: #ffbc61;
+  padding: 25px;
+}
+.bar.background-orange p {
   color: black;
 }
 
-.psk-footer .psk-logo {
-  text-align: right;
+/****************************************/
+/*************** FOOTER *****************/
+/****************************************/
+
+#footer {
+  background: #ffffff;
 }
 
-@media screen and (max-width: 991px) {
-  .psk-footer {
-    padding-top: 0px;
-  }
-  .psk-footer .psk-logo {
-    margin: 20px auto 0;
-    text-align: center;
-  }
-  .psk-footer .psk-address {
-    text-align: center;
-  }
+#footer h4 {
+  color: black;
 }
 
-.psk-copyright .blue {
-  color: #38a7bb;
+#footer p {
+  color: #555555;
+  font-size: 18px;
 }
 
-.psk-container {
-  display: flex;
-  padding-top: 20px;
-  padding-bottom: 20px;
+#footer a.phone {
+  color: #555555;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 16px;
 }
 
-.home-carousel .psk-list {
-  flex: 1;
-  padding-top: 120px;
-}
-
-.home-carousel .psk-list li {
-  font-size: 20px;
-}
-
-.home-carousel .psk-carousel {
-  padding-top: 0;
-  padding-bottom: 0;
-  width: 600px;
-}
-
-@media screen and (max-width: 991px) {
-  .home-carousel .psk-list {
-    padding-top: 0;
-  }
-  .psk-container {
-    display: block;
-  }
-  .home-carousel .psk-carousel {
-    width: 100%;
-  }
-}
-
-.texture-bw {
-  background: url('../img/texture-bw.png') center center repeat;
+#footer .social {
+  margin-bottom: 10px;
 }
