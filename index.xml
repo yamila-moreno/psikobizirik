@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PsikoBizirik</title>
+    <link>https://psikobizirik.com/</link>
+    <description>Recent content on PsikoBizirik</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    
+	<atom:link href="https://psikobizirik.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://psikobizirik.com/privacidad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://psikobizirik.com/privacidad/</guid>
+      <description>CONTACTOS ¿Quién es el responsable de sus datos?
+De acuerdo con lo establecido por el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, le informamos que los datos personales aportados serán tratados por PAULA ELENA GARCIA-ARENZANA LES con CIF 44558389Y y domicilio en MARIA LACUNZA, 7 - 31006, PAMPLONA (Navarra).
+Con qué finalidad tratamos sus datos personales?
+Los datos aportados por usted son necesarios para poder prestarle con todas las garantías el servicio solicitado, y serán tratados con las siguientes finalidades: Publicidad y prospección comercial; Otras finalidades.</description>
+    </item>
+    
+  </channel>
+</rss>
