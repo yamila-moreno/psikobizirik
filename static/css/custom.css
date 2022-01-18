@@ -1,3 +1,7 @@
+/****************************************/
+/*************** HEADER *****************/
+/****************************************/
+
 /* Cabecera más grande y que quepa bien el logo */
 .navbar-brand {
   height: 125px;
@@ -41,6 +45,10 @@ ul .fa-phone {
   }
 }
 
+/****************************************/
+/************** CARRUSEL ****************/
+/****************************************/
+
 /* Quitar imagen de fondo en carrusel */
 .home-carousel {
   background: none;
@@ -52,6 +60,13 @@ ul .fa-phone {
   opacity: 0.8;
 }
 
+.home-carousel h1 {
+  font-size: 32px;
+}
+
+/****************************************/
+/************** FEATURES ****************/
+/****************************************/
 
 /* Evitar que el hover en los círculos haga glow */
 .box-simple:hover .icon {
