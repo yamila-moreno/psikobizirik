@@ -124,6 +124,13 @@ section, div.section {
 .bar.background-orange p {
   color: black;
 }
+.bar.background-violet {
+  background: #d9c0ee;
+  padding: 25px;
+}
+.bar.background-violet p {
+  color: black;
+}
 
 /****************************************/
 /*************** FOOTER *****************/
